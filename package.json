@@ -1,0 +1,16 @@
+{
+  "name": "geektalk",
+  "version": "1.0.0",
+  "description": "A webSocket chat for geek conversations",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "Roger Fernando de Oliveira Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
